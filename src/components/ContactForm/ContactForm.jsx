@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import InputTelMask from "react-input-mask";
 import PropTypes from "prop-types";
 import styles from "./ContactForm.module.css";
 
-export default class ContactForm extends Component {
+export default class ContactForm extends PureComponent {
   static propTypes = {
     onAddContact: PropTypes.func.isRequired
   };
